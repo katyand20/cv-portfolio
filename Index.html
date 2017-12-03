@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="StyleSheet" href="css/ParallaxStyle.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Katriona Anderson: CV</title>
+</head>
+<body onscroll="myFunction()">
+
+  <!--In this example we have turned off parallax scrolling for mobile devices. It works as expected on all desktop screens sizes.
+      Scroll Up and Down this page to see the parallax scrolling effect.-->
+
+  <div class="parallax-main">
+    <div class="caption">
+      <span class="border">Katriona L. Anderson</span>
+    </div>
+  </div>
+
+  <div id="navbar">
+    <a href="#AM">About Me</a>
+  <a href="#Q">Qualifications</a>
+    <a href="#WE">Work Experience</a>
+  <a href="Portfolio.html">Portfolio</a>
+    <a href="#AS">Achievements & Skillsets</a>
+  <a href="#CM">Contact Me</a>
+  </div>
+
+  <div class="box" id="AM">
+    <h2>About Me<h2>
+	<p>...</p>
+  </div>
+
+  <div class="parallax-bw" id="Q">
+    <div class="caption">
+      <span class="border" style="font-size:25px;color: #f7f7f7;"><a href="Qualifications.html">Qualifications</a></span>
+    </div>
+  </div>
+
+
+  <div class="box" id="WE">
+    <h2>Work Experience<h2>
+	<p>...</p>
+  </div>
+
+  <div class="parallax" id="P">
+	<div class="caption">
+      <span class="border" style="font-size:25px;color: #f7f7f7;"><a href="portfolio.html">Portfolio</a></span>
+    </div>
+  </div>
+
+  <div class="box" id="AS">
+    <h2>Achievements & Skillsets<h2>
+	<p>...</p>
+  </div>
+
+    <div class="parallax-bw" id="CM">
+    <div class="caption">
+      <span class="border" style="font-size:25px;color: #f7f7f7;"><a href="ContactProfile.html">Contact Me</a></span>
+    </div>
+  </div>
+
+  <div class="footer">
+        <p style="float: left;">&copy; Katriona L Anderson, 2017</p>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+  </div>
+
+  <script>
+  // Get the navbar
+  var navbar = document.getElementById("navbar");
+
+  // Get the offset position of the navbar
+  var sticky = navbar.offsetTop;
+
+  // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+  </script>
+
+</body>
+</html>
