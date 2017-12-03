@@ -204,6 +204,7 @@ p{
 	font-size: 20px;
 	padding: 10px;
     margin-bottom: 0px!important; 
+    margin-top: 0px; 
     
 }
 
@@ -243,6 +244,22 @@ td{
     
 }
 
+ul{
+    font-size: 20px; 
+    margin-top: 0px; 
+}
+
+.information{
+    font-size: 20px; 
+    color:  #868e96;
+}
+
+.link{
+    color: #007bff;
+    text-decoration: none;
+    font-style: italic;
+    background-color: transparent;
+}
 /*********************************************PORTFOLIO************************************************/
 /*.col1{
   clear: both;
