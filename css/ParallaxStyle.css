@@ -247,11 +247,13 @@ td{
 ul{
     font-size: 20px; 
     margin-top: 0px; 
+    
 }
 
 .information{
     font-size: 20px; 
     color:  #868e96;
+    
 }
 
 .link{
@@ -259,42 +261,10 @@ ul{
     text-decoration: none;
     font-style: italic;
     background-color: transparent;
+    
 }
+
 /*********************************************PORTFOLIO************************************************/
-/*.col1{
-  clear: both;
-  margin-top: 10px;
-  margin-left: 15px;
-  width: 45%;
-  height: 450px;
-  float: left;
-  padding: 15px 20px 15px 20px;
-  background-color: #808080;
-  font-size: 1em;
-}
-.col2{
-  clear: both;
-  margin-top: 10px;
-  margin-left: 15px;
-  width: 45%;
-  height: 450px;
-  display: inline-block;
-  padding: 15px 20px 15px 20px;
-  background-color: #d3d3d3;
-  font-size: 1em;
-}
-.col1 > img{
-  margin-left: 25%;
-}
-.col2 > img{
-  margin-left: 25%;
-}
-.col1 > p{
-  margin: 10px 0px;
-}
-.col2 > p{
-  margin: 10px 0px;
-}*/
 .card{
     width: 50%;
     margin: 10px 25%;

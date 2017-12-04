@@ -1,6 +1,4 @@
-/*
--------------- Basic Reset Css ----------
-*/
+/*--------------BODY---------*/
 * {
   margin: 0px auto;
   padding: 0px;
@@ -9,27 +7,26 @@
 
 }
 
-/* -------- ----------- */
+/* ---------CONTACT-CARD---------- */
+/*MainBodyDiv*/
 .cont_principal {
   position: absolute;
   width: 100%;
   height: 100%;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fbfaf6+9,d4cebf+74,d4cebf+74,d4cebf+100 */
-  /*background: rgb(251,250,246); /* Old browsers */
-  /*background: -moz-linear-gradient(-45deg,  rgba(251,250,246,1) 9%, rgba(212,206,191,1) 74%, rgba(212,206,191,1) 74%, rgba(212,206,191,1) 100%); /* FF3.6-15 */
-  /*background: -webkit-linear-gradient(-45deg,  rgba(251,250,246,1) 9%,rgba(212,206,191,1) 74%,rgba(212,206,191,1) 74%,rgba(212,206,191,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  /*background: linear-gradient(135deg,  rgba(251,250,246,1) 9%,rgba(212,206,191,1) 74%,rgba(212,206,191,1) 74%,rgba(212,206,191,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   background-image: url('../Images/dandelion.jpeg');
 
 }
 
+/*FullWidthCardDiv*/
 .cont_central {
   position: absolute;
   width: 100%;
   top: 50%;
   margin-top: -200px;
+    
 }
 
+/*PullOutHeightDiv*/
 .cont_modal {
   position: relative;
   width: 300px;
@@ -41,8 +38,10 @@
   -webkit-transition-delay: 0.7s;
   -o-transition-delay: 0.7s;
   transition-delay: 0.7s;
+    
 }
 
+/*PhotoCardFront*/
 .cont_photo {
   position: relative;
   width: 300px;
@@ -58,22 +57,28 @@
   transition: all 0.5s;
   transition: all 0.5s;
   box-shadow: 1px 1px 20px -5px rgba(0,0,0,0.5);
+    
 }
 
+/*PhotoBackground*/
 .cont_img_back {
   position: absolute;
   width: 100%;
   height: 100%;
   overflow: hidden;
   border-radius:5px ;
+    
 }
 
+/*Image*/
 .cont_img_back > img {
   width: 100%;
   opacity: 0.7;
+    
 }
 
-.cont_text_ingredients {
+/*PullOutBody*/
+.cont_text_body {
   position: absolute;
   width: 0px;
   top: 0px;
@@ -84,13 +89,11 @@
   border-radius:5px ;
   z-index: 3;
   box-shadow: 1px 1px  20px  -5px  rgba(0,0,0,0.2);
-
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fbf9f9+28,e8eaed+100 */
   background: rgb(251,249,249); /* Old browsers */
   background: -moz-linear-gradient(-45deg,  rgba(251,249,249,1) 28%, rgba(232,234,237,1) 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(-45deg,  rgba(251,249,249,1) 28%,rgba(232,234,237,1) 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(135deg,  rgba(251,249,249,1) 28%,rgba(232,234,237,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
@@ -98,85 +101,10 @@
   -webkit-transition-delay: 0.7s;
   -o-transition-delay: 0.7s;
   transition-delay: 0.7s;
+    
 }
 
-.cont_mins{
-  position: relative;
-  float: left;
-  width: 100%;
-}
-
-.sub_mins {
-  position: relative;
-  float: left;
-  width: 60px;
-  height: 60px;
-  background-color: rgba(255,253,112,0.8);
-  border-radius:50% ;
-  margin: 16px;
-  margin-bottom: 0px;
-  opacity: 0;
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-  transition: all 0.5s;
-  transition-delay: 1s;
-  -webkit-transition-delay: 1s;
-  -o-transition-delay: 1s;
-  transition-delay: 1s;
-
-}
-
-.sub_mins > h3 {
-  font-size: 24px;
-  margin-top: 7px;
-  margin-bottom: -15px;
-}
-
-.sub_mins > span {
-  font-size: 9px;
-  font-weight: 700;
-}
-
-.cont_servings {
-  position: relative;
-  float: left;
-  width: 60px;
-  height: 60px;
-  background-color: rgba(255,253,112,0.8);
-  border-radius:50% ;
-  margin: 16px;
-  opacity: 0;
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-  transition-delay: 0.7s;
-  -webkit-transition-delay: 0.7s;
-  -o-transition-delay: 0.7s;
-  transition-delay: 0.7s;
-}
-
-.cont_servings > h3 {
-  font-size: 24px;
-  margin-top: 5px;
-  margin-bottom: -15px;
-}
-
-.cont_servings > span {
-  font-size: 9px;
-  font-weight: 700;
-}
-.cont_icon_right {
-  position: relative;
-  float: right;
-  margin-top: 16px;
-}
-.cont_icon_right  > a  {
-  margin: 16px;
-  margin-top: 16px;
-  color: #fff;
-}
-
+/*DetailsOnTransparentFrontCover*/
 .Cover_Details {
   position: absolute;
   bottom:-185px;
@@ -186,8 +114,6 @@
   background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 68%, rgba(0,0,0,0.65) 100%, rgba(0,0,0,0.65) 101%); /* FF3.6-15 */
   background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 68%,rgba(0,0,0,0.65) 100%,rgba(0,0,0,0.65) 101%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 68%,rgba(0,0,0,0.65) 100%,rgba(0,0,0,0.65) 101%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-
-
   width: 100%;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
@@ -195,87 +121,56 @@
   transition-delay: 1.2s;
   -webkit-transition-delay: 0.7s;
   -o-transition-delay: 0.7s;
-  transition-delay: 0.7s;}
+  transition-delay: 0.7s;
 
+}
 
+/*CoverHeading*/
   .Cover_Details > h3 {
     margin-top: 50px;
     color: #fff;
     font-size: 24px;
     padding: 10px;
+      
   }
 
+/*CoverDescription*/
   .Cover_Details > p {
     color: #fff;
     width: 80%;
     font-size: 14px;
     padding-bottom: 10px;
+      
   }
 
+/*CoverLinks*/
   .Cover_Details > a {
     color: #fff;
     padding: 10px;
+      
   }
 
-  /* ---------------- Css Tabs -------- */
-
-  .cont_tabs {
+/*FormHeading*/
+  .cont_head {
     position: relative;
     float: left;
     width: 410px;
     height: 60px;
     top: 10px;
     border-bottom: 3px solid #EDEDEC;
+      
   }
 
-  .cont_tabs > ul {
-    width: 300px;
-    background-color: #eee;
-  }
-
-  .cont_tabs > ul > li {
-    position: relative;
-    float: left;
-    list-style: none;
-  }
-
-  .cont_tabs > ul > li > a {
-    border-top: 7px solid #ED346C;
-    position: relative;
-    display: block;
-    float: left;
-    padding-top: 15px;
-    color: #241C3E;
-    text-decoration: none;
-    margin-left: 15px;
-    font-size: 14px;
-  }
-
-  .cont_tabs > ul > li:first-child > a
-  {
-    border-top: 7px solid rgba(237, 52, 108, 0);
-    margin-top: 0px;
-    color: #9A96A4;
-    -webkit-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-    transition: all 0.2s;
-  }
-
-  .cont_tabs > ul > li:first-child > a:hover {
-    border-top: 7px solid #ED346C;
-    padding-top: 15px;
-    color: #241C3E;
-    margin-top: 0px;
-  }
-
-  .cont_btn_open_dets {
+/*OpenArrow*/
+  .cont_btn_open_arrow {
     position: absolute;
     right: -15px;
     top:50%;
+      
   }
 
-  .cont_btn_open_dets  > a {
+/*OpenArrowLink*/
+  .cont_btn_open_arrow  > a {
     display: block;
     padding-top: -5px;
     width: 30px;
@@ -292,17 +187,20 @@
 
   }
 
-  .cont_btn_open_dets  > a > i {
+/*OpenArrowIcon*/
+  .cont_btn_open_arrow > a > i {
     margin-top: 4px;
+      
   }
 
-  .cont_title_preparation {
+  .cont_form_label {
     position: relative;
     float: left;
     margin:10px 0px ;
     width: 410px;
   }
-  .cont_title_preparation > p {
+
+  .cont_form_label > p {
     font-weight: 700;
     font-size: 14px;
     margin-left: 40px;
@@ -310,12 +208,14 @@
     color: #36354E;
   }
 
-  .cont_info_preparation {
+/*FormInputBox*/
+  .cont_form_input {
     position: relative;
     float: left;
   }
 
-  .cont_info_preparation > input, textarea {
+/*FormInputAndTextAreax*/
+  .cont_form_input > input, textarea {
     margin-left: 50px;
     border-left: 2px solid #E3E3E3;
     padding: 5px 0px;
@@ -324,11 +224,13 @@
 
   }
 
-  .cont_info_preparation > textarea {
+/*FormInputTextArea*/
+  .cont_from_input > textarea {
     height: 140px;
 
   }
 
+/*FormButtons*/
   .buttons > button {
     margin-left: 50px;
     border-left: 2px solid #E3E3E3;
@@ -338,47 +240,49 @@
 
   }
 
-  .cont_btn_mas_dets {
-    position: absolute;
-    bottom:0px;
-    left: 50%;
-  }
-  .cont_btn_mas_dets > a {
-    color: #36354E;
-  }
-
-  .cont_over_hidden {
+/*HideForm*/
+  .cont_hidden {
     position: relative;
     float: left;
     width: 100%;
     height: 400px;
     overflow: hidden;
+      
   }
 
-  .cont_text_det_preparation {
+/*FromContainer*/
+  .cont_form {
     position: relative;
     width: 410px;
+      
   }
 
-  .cont_modal_active > .cont_text_ingredients  > .cont_btn_open_dets > a {
+  .cont_modal_active > .cont_text_body  > .cont_btn_open_arrow > a {
     transform: rotate(0deg);
+      
   }
-  .cont_modal_active > .cont_text_ingredients{
+
+  .cont_modal_active > .cont_text_body{
     width: 410px;
     left: 285px;
     z-index: 1;
     box-shadow: 15px 20px  70px  -5px  rgba(0,0,0,0.2);
+      
   }
+
   .cont_modal_active {
     width: 700px;
+      
   }
 
   .cont_modal_active > .cont_photo {
     box-shadow: 25px 10px 70px -5px rgba(0,0,0,0.3);
+      
   }
 
   .cont_modal_active > .cont_photo > .cont_mins > .sub_mins {
     opacity: 1;
+      
   }
 
   .cont_modal_active  > .cont_photo > .cont_servings {
@@ -394,6 +298,7 @@
 #navbar {
   overflow: hidden;
   background-color: #B64489;
+  z-index: 5;   
 }
 
 /* Navbar links */
@@ -405,11 +310,13 @@
   padding: 15px;
   text-decoration: none;
   font-size: 20px;
+  font-family: 'Vollkorn SC', serif!important;
+    
 }
 
 /* Page content */
 .content {
   padding: 16px;
+    
 }
 
-/******************************************************************************************************/
