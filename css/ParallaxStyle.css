@@ -57,6 +57,14 @@ body, html {
     
 }
 
+.con_box{
+    height:600px;
+    background-color:240, 247, 255;
+    /*opacity: 0.5;*/
+    font-size:36px;
+    
+}
+
 /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
 @media only screen and (max-device-width: 1024px) {
     .parallax {
@@ -200,6 +208,20 @@ h4{
 
 }
 
+h5{
+    font-size: 20px;
+    margin: 0px;
+    padding: 10px;
+
+}
+
+h6{
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px 10px;
+
+}
+
 p{
 	font-size: 20px;
 	padding: 10px;
@@ -264,12 +286,36 @@ ul{
     
 }
 
+.alignleft {
+	float: left;
+    
+}
+
+.alignright {
+	float: right;
+    
+}
+
+iframe{
+    border: 0px; 
+    height: 500px; 
+    width: 1245px; 
+    padding-left: 10px;
+    
+}
+
 /*********************************************PORTFOLIO************************************************/
 .card{
-    width: 50%;
-    margin: 10px 25%;
+    width: 90%;
+    margin: 10px 0px 0px 10px; 
     max-height: 480px; 
 
+}
+
+.card-img-top {
+    width: auto!important; 
+    height: 200px; 
+    
 }
 
 .card-body{
@@ -280,22 +326,12 @@ ul{
 .text-muted{
     padding: 5px 10px!important; 
     margin: 0px!important; 
-    font-size: 18px!important; 
+    font-size: 14px!important; 
     
 }
 
 .details{
-    font-size: 18px; 
+    font-size: 14px; 
     padding: 2px 10px;
     text-align: justify;
-}
-
-iframe{
-    padding-top: 10px; 
-    
-}
-
-.videoContainer{
-    margin-top: 33.3%;
-    
 }
