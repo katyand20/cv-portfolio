@@ -6,4 +6,4 @@ Final Version
  Pages Site: https://katyand20.github.io/cv-portfolio/ 
  
  No GitHub licences have been attached however I retain a right to intelectual property. 
- 
+ _
