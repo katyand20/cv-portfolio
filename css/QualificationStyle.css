@@ -50,28 +50,53 @@
     background-size: cover;
 }
 
-.Milnes_box{
-  height:700px;
-  background-color:240, 247, 255;
-  font-size:36px;
-}
-
 .Elgin_box{
   height: 400px;
   background-color:240, 247, 255;
   font-size:36px;
 }
 
-.Inv_box{
-  height: 1180px;
+.qualification_box{
+  height: auto;
   background-color:240, 247, 255;
   font-size:36px;
 }
 
-.Rgu_box{
-  height: 700px;
-  background-color:240, 247, 255;
-  font-size:36px;
+/*************************Collapsable boxes**********************************/
+.collapsible {
+	background-color: #777;
+	color: white;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	font-family: 'Vollkorn SC', serif !important;
+}
+
+.active, .collapsible:hover {
+	background-color: #555;
+}
+
+.collapsible:after {
+	content: '\002B'; /*Plus Icon*/
+	color: white;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+}
+
+.active:after {
+	content: "\2212"; /*Minus Icon*/
+}
+
+.collapsibleContent {
+	padding: 0 18px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
 }
 
 /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */

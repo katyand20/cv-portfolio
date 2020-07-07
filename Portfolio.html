@@ -1,271 +1,408 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta charset="utf-8">
-      <link rel="StyleSheet" href="css/ParallaxStyle.css" type="text/css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <title>Portfolio</title>
-   </head>
-   <body onscroll="myFunction()">
-      <!--In this example we have turned off parallax scrolling for mobile devices. It works as expected on all desktop screens sizes.
+
+<head>
+  <meta charset="utf-8">
+  <link rel="StyleSheet" href="css/ParallaxStyle.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <title>Portfolio</title>
+</head>
+
+<body onscroll="myFunction()">
+  <!--In this example we have turned off parallax scrolling for mobile devices. It works as expected on all desktop screens sizes.
          Scroll Up and Down this page to see the parallax scrolling effect.-->
-      <div class="parallax-main">
-         <div class="caption">
-            <span class="border">Portfolio</span>
-         </div>
-         <!--END-CAPTION-->
+  <div class="parallax-main">
+    <div class="caption">
+      <span class="border">Portfolio</span>
+    </div>
+    <!--END-CAPTION-->
+  </div>
+
+  <!--END-BG-IMAGE-->
+  <div id="navbar">
+    <a href="index.html#AM">About Me</a>
+    <a href="Qualifications.html">Qualifications</a>
+    <a href="WorkExperience.html">Work Experience</a>
+    <a href="#">Portfolio</a>
+    <a href="index.html#HA">Hobbies & Achievements</a>
+    <a href="index.html#CM">Contact Me</a>
+  </div>
+  <!--END-NAVBAR-->
+
+  <!--FIRST ROW-->
+  <div class="box">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <!--Sights - North Atlantic Corona Challenge Hackathon 2020-->
+          <img class="card-img-top" src="Images/Sights.jpg" alt="Sights Logo" />
+          <div class="card-body">
+            <h6>North Atlantic Corona Challenge Hackathon 2020</h6>
+            <p class="text-muted">May 2020</p>
+            <p class="details">Worked with an international team to develop an idea to boost tourism during the Coronavirus pandemic. Learned remote team working and start-up business skills while developing a business pitch and prototype. </br>
+              Use local guides to host live online or virtual reality tours of historic sights.</p>
+            <p class="details"><a href="https://sights-coronachallenge2020.netlify.app/index.html" target="_blank">View the prototype here!</a></p>
+          </div>
+          <!--END-CARD-BODY-->
+        </div>
+        <!--END-CARD-->
       </div>
-       
-      <!--END-BG-IMAGE-->
-      <div id="navbar">
-         <a href="index.html#AM">About Me</a>
-         <a href="Qualifications.html">Qualifications</a>
-         <a href="WorkExperience.html">Work Experience</a>
-         <a href="#">Portfolio</a>
-         <a href="index.html#HA">Hobbies & Achievements</a>
-         <a href="index.html#CM">Contact Me</a>
+      <!--END-COL-->
+      <div class="col-md-4">
+        <div class="card">
+          <!--GhostCom-->
+          <img class="card-img-top" src="Images/GhostCom.PNG" alt="Wireless Heat Map" />
+          <div class="card-body">
+            <h6>GhostCom - Wireless Networks Project</h6>
+            <p class="text-muted">April 2020</p>
+            <p class="details">Worked in a small team to plan a wireless network implementation for a small business. Researched different vendors and options, used software to plan and analyse wireless access point placement, led presentation of plan, then wrote report to submit as coursework.</p>
+          </div>
+          <!--END-CARD-BODY-->
+        </div>
+        <!--END-CARD-->
       </div>
-      <!--END-NAVBAR-->
-       
-       <!-- FIRST ROW-->
-      <div class="box">
-         <div class="row">
-            <div class="col-md-4">
-               <div class="card">
-                  <!--SANDWICH SHOP GUI-->
-                  <img class="card-img-top" src="Images/SandwichShop.JPG" alt="Sandwich Shop GUI"/>
-                  <div class="card-body">
-                     <h6>Sandwich Shop GUI</h6>
-                     <p class="text-muted">January 2019</p>
-                     <p class="details">Created a graphical user interface for a sandwich shop following a given brief for Advanced Software Design Module coursework (Grade A). </br> Created using object oriented Java. Includes loading and exporting of text files, creation and storing of new objects, sorting objects, displays image of each item and order details.</p>
-                  </div>
-                  <!--END-CARD-BODY-->
-               </div>
-               <!--END-CARD-->
-            </div>
-            <!--END-COL-->
-            <div class="col-md-4">
-               <div class="card">
-                  <!--VMH-->
-                  <img class="card-img-top" src="Images/VMH.JPG" alt="Visual Media Hub"/>
-                  <div class="card-body">
-                     <h6>Visual Media Hub</h6>
-                     <p class="text-muted">November 2018</p>
-                     <p class="details">Team project for Professional Skills Module. Create your own starup business plan to pitch "Dragons Den" style. Had to research technical aspects, write a report and presentation, delegate, schedule and manage meetings. </p>
-                     <p class="details">The teams project was a searching facility for online media (showing availability and platforms of shows etc) along with a booking/reservation system for tickets. </p>
-                  </div>
-                  <!--END-CARD-BODY-->
-               </div>
-               <!--END-CARD-->
-            </div>
-            <!--END-COL-->
-            <div class="col-md-4">
-               <div class="card">
-                  <!--Flashy Kilts-->
-                  <img class="card-img-top" src="Images/UseCaseDiagram.PNG" alt="Flashy Kilts Modelling Project"/>
-                  <div class="card-body">
-                     <h6>Flashy Kilts Modelling Project</h6>
-                     <p class="text-muted">April 2018</p>
-                     <p class="details">UML and ER Modelling project. Worked as part of a team to create the relationship models for 'Flashy Kilts' a given brief of a kilt hire shop. </p>
-                     <p class="details">Delegated requirements based on skills and strengths, sheduled and managed meetings. </p>
-                  </div>
-                  <!--END-CARD-BODY-->
-               </div>
-               <!--END-CARD-->
-            </div>
-            <!--END-COL-->
-         </div>
-         <!--END-ROW-->
+      <!--END-COL-->
+      <div class="col-md-4">
+        <div class="card">
+          <!--SECURITY AND CRYPTOGRAPHY COURSEWORK-->
+          <img class="card-img-top" src="Images/InSyncDiagram.png" alt="InSync Diagram" />
+          <div class="card-body">
+            <h6>Security & Cryptography Coursework</h6>
+            <p class="text-muted">April 2020</p>
+            <p class="details">As part of the coursework for this module, cloud storage solutions were researched and compared. Then an installation guide was written for 1 solution – GoogleDrive on a Linux operating system. As there is no native desktop application, inSync was also installed – requiring problem solving and a technical understanding.</p>
+          </div>
+          <!--END-CARD-BODY-->
+        </div>
+        <!--END-CARD-->
       </div>
-      <!--END-BOX-->
-       
-      <div class="parallax-bw">
-         <!--BLACK AND WHITE BACKGROUND IMAGE-->
+      <!--END-COL-->
+    </div>
+    <!--END-ROW-->
+  </div>
+  <!--END-BOX-->
+
+  <div class="parallax-bw">
+    <!--BLACK AND WHITE BACKGROUND IMAGE-->
+  </div>
+
+  <!--SECOND ROW-->
+  <div class="box">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <!--EVA-->
+          <img class="card-img-top" src="Images/EVA.PNG" alt="Event Viewing Application Logo" />
+          <div class="card-body">
+            <h6>Event Viewing Application (EVA)</h6>
+            <p class="text-muted">December 2019</p>
+            <p class="details">Worked in a team to develop an application to organise faculty events using an agile working methodology. Organised tasks to be completed in each sprint, led meetings with team members and the client, pitched product developed (front end web application using HTML and CSS) to client.</p>
+            <p class="details">Gained level 1 SISA accreditation.</p>
+          </div>
+          <!--END-CARD-BODY-->
+        </div>
+        <!--END-CARD-->
       </div>
-       
-       <!--SECOND ROW-->
-       <div class="box">
-         <div class="row">
-            <div class="col-md-4">
-               <div class="card">
-                  <!--Portfolio Website-->
-                  <img class="card-img-top" src="Images/portfolio.JPG" alt="Portfolio website"/>
-                  <div class="card-body">
-                     <h6>Portfolio Website</h6>
-                     <p class="text-muted">December 2017</p>
-                     <p class="details">Created this portfolio website for Computing Information Systems module. Design was personal choice and had to include linked pages and bootstrap.</p>
-                     <p class="details">All coding and design done individually. All hosting done via GitHub.</p>
-                  </div>
-                  <!--END-CARD-BODY-->
-               </div>
-               <!--END-CARD-->
-            </div>
-            <!--END-COL-->
-            <div class="col-md-4">
-               <div class="card">
-                  <!--Arduino-->
-                  <img class="card-img-top" id="swapImage" src="Images/Arduino.jpg"  alt="Arduino"/>
-                  <div class="card-body">
-                      <h6>Arduino: 7 Second Challenge</h6>
-                     <p class="text-muted">December 2017</p>
-                     <p class="details">Teambuilding project to program Arduinos to a self designated brief. Worked as a team to lear Arduino hardware and code, Processing and external elements - the digital clock. The program will randomly draw a digital playing card which the player has 7 seconds to complete and press the button or the buzzer will sound and you have a forfeit. </p>
-                  </div>
-                  <!--END-CARD-BODY-->
-               </div>
-               <!--END-CARD-->
-            </div>
-            <!--END-COL-->
-            <div class="col-md-4">
-               <div class="card">
-                  <!--Lego Mindstorms-->
-                  <img class="card-img-top" src="Images/Lego.JPG"  alt="Lego robot"/>
-                  <div class="card-body">
-                     <h6>Lego Mindstorms Robotics</h6>
-                     <p class="text-muted">October 2017</p>
-                     <p class="details">Teambuilding and Ice-Breaking challenge to build a lego robot to a set of schematics then program it to pass 7 challenges without human interaction. This made use of simple coding structures and sensors. </p>
-                      <p class="details"><a href="https://imgur.com/a/3issg" target="_blank">Watch the challenges here!</a></p>
-                  </div>
-                  <!--END-CARD-BODY-->
-               </div>
-               <!--END-CARD-->
-            </div>
-            <!--END-COL-->
-         </div>
-         <!--END-ROW-->
+      <!--END-COL-->
+      <div class="col-md-4">
+        <div class="card">
+          <!--GARIOCH HERITAGE CENTER-->
+          <img class="card-img-top" src="Images/GHC.PNG" alt="Garioch Heritage Center Web App" />
+          <div class="card-body">
+            <h6>Garioch Heritage Center</h6>
+            <p class="text-muted">May 2019</p>
+            <p class="details">Led a small team to create a full stack web application for a local museum. Read a QR code to view further details about a display with video/audio guides. Admin features to add new display details and generate QR a code.</br>
+              Used HTML, CSS, JavaScript (Node.js) and NoSQL along with APIs. Built key skills for working with clients in meetings and pitches, communication and planning.</p>
+          </div>
+          <!--END-CARD-BODY-->
+        </div>
+        <!--END-CARD-->
       </div>
-      <!--END-BOX-->
-       
-       <div class="parallax">
-         <!--BACKGROUND IMAGE-->
+      <!--END-COL-->
+      <div class="col-md-4">
+        <div class="card">
+          <!--RASPBERRY PI PROJECT-->
+          <img class="card-img-top" src="Images/RaspberryPiProject.jpg" alt="Raspberry Pi Project" />
+          <div class="card-body">
+            <h6>Electronic Attendance Register – Raspberry Pi</h6>
+            <p class="text-muted">May 2019</p>
+            <p class="details">Worked as part of a team to create an electronic attendance register using Raspberry Pi hardware. This includes NFC data writing and reading,  movement sensors, LED displays and Bluetooth.</br>
+              During this I learned Python, developed hardware skills, wrote technical documents and produced a demonstration video. </p>
+          </div>
+          <!--END-CARD-BODY-->
+        </div>
+        <!--END-CARD-->
       </div>
-       
-       <!--THIRD ROW-->
-       <div class="box">
-         <div class="row">
-            <div class="col-md-4">
-               <div class="card">
-                  <!--KNOCK-NEWS-ARCHIVE-->
-                  <img class="card-img-top" src="Images/KnockNewsArchive.JPG" alt="Knock News Archive"/>
-                  <div class="card-body">
-                     <h6>Knock News Archive</h6>
-                     <p class="text-muted">August 2016</p>
-                     <p class="details">Creation of a digital archive (database & web portal using HTML, CSS, PHP and SQL) for back issues of a local magazine.</p>
-                     <p class="details">Includes dynamicly generated reports for author, issue etc. Simple login system for users.</p>
-                  </div>
-                  <!--END-CARD-BODY-->
-               </div>
-               <!--END-CARD-->
-            </div>
-            <!--END-COL-->
-            <div class="col-md-4">
-               <div class="card">
-                  <!--PIZZA-APP-->
-                  <img class="card-img-top" src="Images/JonJoPizza.JPG" alt="img"/>
-                  <div class="card-body">
-                      <h6>JonJo's Pizza App</h6>
-                     <p class="text-muted">March 2016</p>
-                      <p class="details">Online pizza ordering web-app created as assessed coursework for 3 modules in UHI Inverness.</p>
-                      <p class="details">Dynamic use of database, PHP and JavaScript. Development of Human Computer Interaction. </p>
-                  </div>
-                  <!--END-CARD-BODY-->
-               </div>
-               <!--END-CARD-->
-            </div>
-            <!--END-COL-->
-            <div class="col-md-4">
-               <div class="card">
-                  <!--COUNCIL-APP-->
-                  <img class="card-img-top" src="Images/CouncilApp.JPG" alt="Council App"/>
-                  <div class="card-body">
-                     <h6>Highland Council Services App</h6>
-                     <p class="text-muted">November 2015</p>
-                     <p class="details">Responsive mobile application for use as a portal to access web services for locals and tourism.</p>
-                     <p class="details">Uses simple JQuery for responsive layout. Created for assessed Mobile Tech module.</p>
-                  </div>
-                  <!--END-CARD-BODY-->
-               </div>
-               <!--END-CARD-->
-            </div>
-            <!--END-COL-->
-         </div>
-         <!--END-ROW-->
+      <!--END-COL-->
+    </div>
+    <!--END-ROW-->
+  </div>
+  <!--END-BOX-->
+
+  <div class="parallax">
+    <!--COLOUR BACKGROUND IMAGE-->
+  </div>
+
+  <!-- THIRD ROW-->
+  <div class="box">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <!--SORTING ALGORITHM ANALYSIS-->
+          <img class="card-img-top" src="Images/AlgorithmAnalysis.PNG" alt="Algorithm Analysis Graphs" />
+          <div class="card-body">
+            <h6>Sorting Algorithm Analysis</h6>
+            <p class="text-muted">April 2019</p>
+            <p class="details">Further Advanced Software Design module coursework to demonstrate the efficiency (space and time complexity) required for different sorting algorithms (quick sort and merge sort).</br>
+              Created GUI using object oriented Java with JavaFX library to display graphical output.</p>
+          </div>
+          <!--END-CARD-BODY-->
+        </div>
+        <!--END-CARD-->
       </div>
-      <!--END-BOX-->
-       
-       <div class="parallax-bw">
-         <!--BLACK AND WHITE BACKGROUND IMAGE-->
-      </div> 
-       
-      <!--FOURTH ROW-->
-      <div class="box">
-         <div class="row">
-            <div class="col-md-4">
-               <div class="card">
-                  <!--LURE OF THE LOST-->
-                  <img class="card-img-top" src="Images/LureOfTheLost.jpg"  alt="Lure of the Lost"/>
-                  <div class="card-body">
-                     <h6>Lure of the Lost</h6>
-                     <p class="text-muted">August 2015</p>
-                     <p class="details">Worked with artist Anthony Schrag as he walked from Huntly to the Venice Bienalle, taking 111 days to cover 2500k.</p>
-                     <p class="details">I assisted with marketing, planning, sourcing/decorating props and helped host events. I also helped research and experience in press releases. </p>
-                  </div>
-                  <!--END-CARD-BODY-->
-               </div>
-               <!--END-CARD-->
-            </div>
-            <!--END-COL-->
-            <div class="col-md-4">
-               <div class="card">
-                  <!--OAKS AND AMITY-->
-                  <img class="card-img-top" src="Images/OaksAmity.JPG" alt="Oaks & Amity"/>
-                  <div class="card-body">
-                     <h6>Oaks & Amity</h6>
-                     <p class="text-muted">August 2015</p>
-                     <p class="details">Worked with French artist Caroline Wendling to prepare for the creation of a white wood of peace near Huntly - celebrating the centenery of WWI and the union of European countries. </p>
-                     <p class="details">I helped to embroider white flags with peace quotes, and plan and run an event to plant oak trees to make a commemerative woodland glade.</p>
-                  </div>
-                  <!--END-CARD-BODY-->
-               </div>
-               <!--END-CARD-->
-            </div>
-            <!--END-COL-->
-            <div class="col-md-4">
-                
-               <!--EMPTY CARD-->
-                
-            </div>
-            <!--END-COL-->
-         </div>
-         <!--END-ROW-->
+      <!--END-COL-->
+      <div class="col-md-4">
+        <div class="card">
+          <!--SANDWICH SHOP GUI-->
+          <img class="card-img-top" src="Images/SandwichShop.JPG" alt="Sandwich Shop GUI" />
+          <div class="card-body">
+            <h6>Sandwich Shop GUI</h6>
+            <p class="text-muted">January 2019</p>
+            <p class="details">Created a graphical user interface for a sandwich shop following a given brief for Advanced Software Design Module coursework.</br>
+              Created using object oriented Java. Includes loading and exporting of text files, creation and storing of new objects, sorting objects, displays image of each item and order details.</p>
+          </div>
+          <!--END-CARD-BODY-->
+        </div>
+        <!--END-CARD-->
       </div>
-      <!--END-BOX-->
- 
-      <div class="footer">
-         <p style="float: left;">&copy; Katriona L. Anderson, 2019</p>
+      <!--END-COL-->
+      <div class="col-md-4">
+        <div class="card">
+          <!--VMH-->
+          <img class="card-img-top" src="Images/VMH.JPG" alt="Visual Media Hub" />
+          <div class="card-body">
+            <h6>Visual Media Hub</h6>
+            <p class="text-muted">November 2018</p>
+            <p class="details">Team project for Professional Skills module - create a start-up business plan to pitch "Dragons Den" style. Researched technical aspects, wrote reports, pitched the idea, delegated tasks, schedules and lead meetings.</br>
+              The team project was a searching facility for online media (showing availability and platforms of shows) along with a booking/reservation system for tickets.</p>
+          </div>
+          <!--END-CARD-BODY-->
+        </div>
+        <!--END-CARD-->
       </div>
-      <!--END-FOOTER-->
-      <script>
-         // Get the navbar
-         var navbar = document.getElementById("navbar");
-         
-         // Get the offset position of the navbar
-         var sticky = navbar.offsetTop;
-         
-         // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-         function myFunction() {
-           if (window.pageYOffset >= sticky) {
-             navbar.classList.add("sticky")
-           } else {
-             navbar.classList.remove("sticky");
-           }
-         }
-      </script>
-      <!-- Optional JavaScript -->
-      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-   </body>
+      <!--END-COL-->
+    </div>
+    <!--END-ROW-->
+  </div>
+  <!--END-BOX-->
+
+  <div class="parallax-bw">
+    <!--BLACK AND WHITE BACKGROUND IMAGE-->
+  </div>
+
+  <!--FOURTH ROW-->
+  <div class="box">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <!--Flashy Kilts-->
+          <img class="card-img-top" src="Images/UseCaseDiagram.PNG" alt="Flashy Kilts Modelling Project" />
+          <div class="card-body">
+            <h6>Flashy Kilts Modelling Project</h6>
+            <p class="text-muted">April 2018</p>
+            <p class="details">UML and ER modelling project. Worked as part of a team to create the relationship models for 'Flashy Kilts' a given brief of a kilt hire shop.</br>
+              Delegated requirements based on skills and strengths, scheduled and managed meetings. Prepared diagrams and reports.</p>
+          </div>
+          <!--END-CARD-BODY-->
+        </div>
+        <!--END-CARD-->
+      </div>
+      <!--END-COL-->
+      <div class="col-md-4">
+        <div class="card">
+          <!--Portfolio Website-->
+          <img class="card-img-top" src="Images/portfolio.JPG" alt="Portfolio website" />
+          <div class="card-body">
+            <h6>Portfolio Website</h6>
+            <p class="text-muted">December 2017</p>
+            <p class="details">Created this portfolio website for Computing Information Systems module. Created concept and design, researched and included Parallax design, frameworks and bootstrap.</br>
+              All coding and design done individually. Hosting done via GitHub.</p>
+          </div>
+          <!--END-CARD-BODY-->
+        </div>
+        <!--END-CARD-->
+      </div>
+      <!--END-COL-->
+      <div class="col-md-4">
+        <div class="card">
+          <!--Arduino-->
+          <img class="card-img-top" id="swapImage" src="Images/Arduino.jpg" alt="Arduino" />
+          <div class="card-body">
+            <h6>Arduino: 7 Second Challenge</h6>
+            <p class="text-muted">December 2017</p>
+            <p class="details">Team project to program Arduinos to a self- designated creative brief. Worked as part of a team to learn Arduino hardware and code, Processing (language) and external hardware elements - a digital clock face.</br>
+              The program randomly draws a digital challenge card which the player has 7 seconds to complete and press the button or a buzzer will sound.</p>
+          </div>
+          <!--END-CARD-BODY-->
+        </div>
+        <!--END-CARD-->
+      </div>
+      <!--END-COL-->
+    </div>
+    <!--END-ROW-->
+  </div>
+  <!--END-BOX-->
+
+  <div class="parallax">
+    <!--BACKGROUND IMAGE-->
+  </div>
+
+  <!--FIFTH ROW-->
+  <div class="box">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <!--Lego Mindstorms-->
+          <img class="card-img-top" src="Images/Lego.JPG" alt="Lego robot" />
+          <div class="card-body">
+            <h6>Lego Mindstorms Robotics</h6>
+            <p class="text-muted">October 2017</p>
+            <p class="details">Teambuilding and ice-breaking challenge to build a Lego robot to a set of schematics, then program it to pass 7 challenges without human interaction. This made use of simple coding structures and sensors. Built skills in teamwork, hardware and problem solving.</p>
+            <p class="details"><a href="https://imgur.com/a/3issg" target="_blank">Watch the challenges here!</a></p>
+          </div>
+          <!--END-CARD-BODY-->
+        </div>
+        <!--END-CARD-->
+      </div>
+      <!--END-COL-->
+      <div class="col-md-4">
+        <div class="card">
+          <!--KNOCK-NEWS-ARCHIVE-->
+          <img class="card-img-top" src="Images/KnockNewsArchive.JPG" alt="Knock News Archive" />
+          <div class="card-body">
+            <h6>Knock News Archive</h6>
+            <p class="text-muted">August 2016</p>
+            <p class="details">Creation of a digital archive (database & web portal using HTML, CSS, PHP and SQL) for back issues of a local magazine.</br>
+              Includes dynamicly generated reports for author, issue etc. Simple login and reviewed registration system for users.</p>
+          </div>
+          <!--END-CARD-BODY-->
+        </div>
+        <!--END-CARD-->
+      </div>
+      <!--END-COL-->
+      <div class="col-md-4">
+        <div class="card">
+          <!--PIZZA-APP-->
+          <img class="card-img-top" src="Images/JonJoPizza.JPG" alt="img" />
+          <div class="card-body">
+            <h6>JonJo's Pizza App</h6>
+            <p class="text-muted">March 2016</p>
+            <p class="details">Online pizza ordering web-app created as assessed coursework for 3 modules in UHI Inverness.</br>
+              Dynamic use of SQL database, PHP and JavaScript. Gained knowledge and interest in HCI (Human Computer Interaction) and web cookies. </p>
+          </div>
+          <!--END-CARD-BODY-->
+        </div>
+        <!--END-CARD-->
+      </div>
+      <!--END-COL-->
+    </div>
+    <!--END-ROW-->
+  </div>
+  <!--END-BOX-->
+
+  <div class="parallax-bw">
+    <!--BLACK AND WHITE BACKGROUND IMAGE-->
+  </div>
+
+  <!--SIXTH ROW-->
+  <div class="box">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <!--COUNCIL-APP-->
+          <img class="card-img-top" src="Images/CouncilApp.JPG" alt="Council App" />
+          <div class="card-body">
+            <h6>Highland Council Services App</h6>
+            <p class="text-muted">November 2015</p>
+            <p class="details">Responsive mobile application for use as a portal to access web services for locals and tourism.</br>
+              Uses simple JQuery for responsive layout. Created for assessed Mobile Tech module (UHI).</p>
+          </div>
+          <!--END-CARD-BODY-->
+        </div>
+        <!--END-CARD-->
+      </div>
+      <!--END-COL-->
+      <div class="col-md-4">
+        <div class="card">
+          <!--LURE OF THE LOST-->
+          <img class="card-img-top" src="Images/LureOfTheLost.jpg" alt="Lure of the Lost" />
+          <div class="card-body">
+            <h6>Lure of the Lost</h6>
+            <p class="text-muted">August 2015</p>
+            <p class="details">Worked with artist Anthony Schrag as he walked from Huntly to the Venice Biennale, taking 111 days to cover 2500k.</br>
+              I assisted with marketing, planning, sourcing/decorating props and helped host events. I also helped research and experience in press releases.</p>
+          </div>
+          <!--END-CARD-BODY-->
+        </div>
+        <!--END-CARD-->
+      </div>
+      <!--END-COL-->
+      <div class="col-md-4">
+        <div class="card">
+          <!--OAKS AND AMITY-->
+          <img class="card-img-top" src="Images/OaksAmity.JPG" alt="Oaks & Amity" />
+          <div class="card-body">
+            <h6>Oaks & Amity</h6>
+            <p class="text-muted">August 2015</p>
+            <p class="details">Worked with French artist Caroline Wendling to prepare for the creation of a white wood of peace near Huntly - celebrating the centenary of WWI and the union of European countries.</br>
+              I helped to embroider white flags with peace quotes, and plan and run an event to plant oak trees to make a commemorative woodland glade.</p>
+          </div>
+          <!--END-CARD-BODY-->
+        </div>
+        <!--END-CARD-->
+      </div>
+      <!--END-COL-->
+      <div class="col-md-4">
+
+        <!--EMPTY CARD-->
+
+      </div>
+      <!--END-COL-->
+    </div>
+    <!--END-ROW-->
+  </div>
+  <!--END-BOX-->
+
+  <div class="footer">
+    <p style="float: left;">&copy; Katriona L. Anderson, 2020</p>
+  </div>
+  <!--END-FOOTER-->
+  <script>
+    // Get the navbar
+    var navbar = document.getElementById("navbar");
+
+    // Get the offset position of the navbar
+    var sticky = navbar.offsetTop;
+
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+
 </html>
